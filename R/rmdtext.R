@@ -3,7 +3,7 @@
 
 #' @export
 rmdtext <- function(text){
-  if grepl('```', text) {
+  if (grepl('```', text)) {
     filetype = '.Rmd'
   } else {
     filetype = '.R'
