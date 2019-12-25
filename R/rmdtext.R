@@ -3,8 +3,13 @@
 
 #' @export
 rmdtext <- function(text){
-  writeLines(text, con="input.Rmd");
-  knit2html("input.Rmd", output="output.html");
-  invisible();
+  if grepl('```', text) {
+    filetype = '.Rmd'
+  } else {
+    filetype = '.R'
+  }
+  writeLines(text, con=paste0('input',filetype))
+    rmarkdown::render(input=paste0('input',filetype), output="output.html");
+    invisible();
 }
 
