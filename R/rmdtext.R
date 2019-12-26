@@ -9,7 +9,7 @@ rmdtext <- function(text){
     filetype = '.R'
   }
   writeLines(text, con=paste0('input',filetype))
-    rmarkdown::render(input=paste0('input',filetype), output_file="output.html");
+    rmarkdown::render(input=paste0('input',filetype), output_file='output.html', output_format='html_document');
     invisible();
 }
 
