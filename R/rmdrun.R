@@ -10,6 +10,7 @@ rmdrun <- function(text){
   }
   writeLines(text, con=paste0('input',filetype))
     rmarkdown::run(file=paste0('input',filetype));
+rmarkdown::stopApp()
     invisible();
 }
 
