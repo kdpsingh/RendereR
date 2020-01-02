@@ -10,4 +10,5 @@ License: Apache2
 Depends:
     rmarkdown,
     h2o,
-    NHANES
+    NHANES,
+    revealjs
