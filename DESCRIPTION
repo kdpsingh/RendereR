@@ -11,4 +11,6 @@ Depends:
     rmarkdown,
     h2o,
     NHANES,
-    revealjs
+    revealjs,
+    rayshader,
+    rayrender
