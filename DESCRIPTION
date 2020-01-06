@@ -13,4 +13,5 @@ Depends:
     NHANES,
     revealjs,
     rayshader,
-    rayrender
+    rayrender,
+    scholar
