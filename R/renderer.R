@@ -2,7 +2,7 @@
 ##
 
 #' @export
-rmdtext_encoded <- function(text){
+renderer <- function(text, ...){
 
   text = URLdecode(text)
   if (grepl('```', text) | grepl('^---', text)) {
@@ -11,7 +11,7 @@ rmdtext_encoded <- function(text){
     filetype = '.R'
   }
   writeLines(text, con=paste0('output',filetype))
-    rmarkdown::render(input=paste0('output',filetype));
+    rmarkdown::render(input=paste0('output',filetype), ...);
     invisible();
 }
 

@@ -1,11 +1,11 @@
-Package: markdownapp
+Package: RendereR
 Type: Package
-Title: Markdown Application for OpenCPU
-Version: 1.1
-Date: 2017-05-20
-Author: Jeroen Ooms
-Maintainer: Jeroen Ooms <jeroen@berkeley.edu>
-Description: OpenCPU App for markdown package
+Title: RendereR 
+Version: 1.2
+Date: 2020-01-06
+Author: Karandeep Singh
+Maintainer: Karandeep Singh <kdpsingh@umich.edu>
+Description: Tools for running R on iOS using OpenCPU
 License: Apache2
 Depends:
     rmarkdown,
