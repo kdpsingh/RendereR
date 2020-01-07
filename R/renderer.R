@@ -1,16 +1,13 @@
-## This app requires OpenCPU 1.0.1 or higher !!!! 
-##
-
 #' @export
-renderer <- function(text, ...){
+renderer <- function(text, ...) {
 
   text = URLdecode(text)
-  if (!(grepl('```', text) | grepl('^---', text))) {
+  if (!grepl('```', text) & !grepl('^---', text)) {
     text = paste0('```{r}\n',text,'\n```')
   }
   
   writeLines(text, con='output.Rmd')
-    rmarkdown::render(input='output.Rmd', ...);
-    invisible();
+  rmarkdown::render(input='output.Rmd', ...)
+  invisible()
 }
 
