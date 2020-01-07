@@ -21,12 +21,17 @@ As compared to Version 1, Version 2:
 - Can render to pdf_document, word_document, and revealjs::revealjs_presentation
 
 ## Want to test it?
-1. Highlight the text below (Try with or without the backticks)
+1. Highlight the text below (Try with or without the YAML header/backticks)
 2. Tap Share
-3. Tap RendereR 2 and press OK
+3. Tap ♻️ RendereR 2 and press OK
 
 ~~~
-```{r echo=FALSE}
+---
+title: My publications
+---
+
+```{r echo=FALSE, message = FALSE, warning=FALSE}
+
 library(dplyr)
 library(stringr)
 library(scholar)
@@ -42,5 +47,6 @@ my_pubs %>%
   filter(!is.na(link)) %>% 
   rename(`Click to view more details.`=link) %>% 
   knitr::kable()
+
 ```
 ~~~
