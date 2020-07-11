@@ -22,4 +22,5 @@ Depends:
     yardstick,
     rsample,
     gt,
-    gtsummary
+    gtsummary,
+    magick
