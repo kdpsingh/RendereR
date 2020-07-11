@@ -14,4 +14,12 @@ Depends:
     revealjs,
     rayshader,
     rayrender,
-    scholar
+    scholar,
+    leaflet,
+    xgboost,
+    ranger,
+    parsnip,
+    yardstick,
+    rsample,
+    gt,
+    gtsummary
