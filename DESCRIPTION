@@ -32,4 +32,4 @@ Depends:
     gtsummary,
     magick,
     runway,
-    xml2
+    textutils
