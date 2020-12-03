@@ -31,4 +31,5 @@ Depends:
     gt,
     gtsummary,
     magick,
-    runway
+    runway,
+    xml2
