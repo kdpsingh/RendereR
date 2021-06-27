@@ -2,7 +2,7 @@ Package: RendereR
 Type: Package
 Title: RendereR 
 Version: 2.0
-Date: 2020-01-06
+Date: 2021-06-27
 Author: Karandeep Singh
 Maintainer: Karandeep Singh <kdpsingh@umich.edu>
 Description: Tools for running R on iOS using OpenCPU
@@ -25,6 +25,7 @@ Depends:
     leaflet,
     xgboost,
     ranger,
+    randomForestSRC,
     parsnip,
     yardstick,
     rsample,
