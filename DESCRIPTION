@@ -9,28 +9,4 @@ Description: Tools for running R on iOS using OpenCPU
 License: Apache2
 Remotes:
 Depends:
-    dplyr,
-    tidyr,
-    ggplot2,
-    knitr,
-    magrittr,
-    data.table,
-    poorman,
-    h2o,
-    NHANES,
-    revealjs,
-    rayshader,
-    rayrender,
-    scholar,
-    leaflet,
-    xgboost,
-    ranger,
-    randomForestSRC,
-    parsnip,
-    yardstick,
-    rsample,
-    stringr,
-    gt,
-    gtsummary,
-    magick,
-    textutils
+    knitr
