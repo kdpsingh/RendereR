@@ -7,11 +7,12 @@ Author: Karandeep Singh
 Maintainer: Karandeep Singh <kdpsingh@umich.edu>
 Description: Tools for running R on iOS using OpenCPU
 License: Apache2
-Remotes: ML4LHS/runway
+Remotes:
 Depends:
     dplyr,
     tidyr,
     ggplot2,
+    knitr,
     magrittr,
     data.table,
     poorman,
@@ -32,5 +33,4 @@ Depends:
     gt,
     gtsummary,
     magick,
-    runway,
     textutils
