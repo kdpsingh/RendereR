@@ -9,4 +9,6 @@ Description: Tools for running R on iOS using OpenCPU
 License: Apache2
 Remotes:
 Depends:
-    knitr
+    textutils,
+    knitr,
+    rmarkdown
