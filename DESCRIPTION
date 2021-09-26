@@ -2,13 +2,24 @@ Package: RendereR
 Type: Package
 Title: RendereR 
 Version: 2.0
-Date: 2021-06-27
+Date: 2021-09-26
 Author: Karandeep Singh
 Maintainer: Karandeep Singh <kdpsingh@umich.edu>
 Description: Tools for running R on iOS using OpenCPU
 License: Apache2
 Remotes:
 Depends:
+    tools,
+    utils,
     textutils,
     knitr,
+    yaml,
+    htmltools,
+    evaluate,
+    jsonlite,
+    tinytex,
+    xfun,
+    jquerylib,
+    methods,
+    stringr
     rmarkdown
