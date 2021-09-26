@@ -7,7 +7,7 @@ renderer <- function(text, ...) {
   }
   
   # Convert &gt; into >
-  text = textutils::HTMLdecode(text)
+  # text = textutils::HTMLdecode(text)
     
   writeLines(text, con='output.Rmd')
   rmarkdown::render(input='output.Rmd', ...)
