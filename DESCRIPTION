@@ -7,18 +7,4 @@ Author: Karandeep Singh
 Maintainer: Karandeep Singh <kdpsingh@umich.edu>
 Description: Tools for running R on iOS using OpenCPU
 License: Apache2
-Depends:
-    tools,
-    utils,
-    textutils,
-    knitr,
-    yaml,
-    htmltools,
-    evaluate,
-    jsonlite,
-    tinytex,
-    xfun,
-    jquerylib,
-    methods,
-    stringr,
-    rmarkdown
+Depends: knitr
