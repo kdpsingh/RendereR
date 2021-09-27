@@ -1,8 +1,8 @@
-Package: RendereR
+Package: renderer
 Type: Package
 Title: Application to Render R and RMD Code
 Version: 2.0
-Date: 2021-09-26
+Date: 2020-05-26
 Author: Karandeep Singh
 Maintainer: Karandeep Singh <kdpsingh@umich.edu>
 Description: Tools for running R on iOS using OpenCPU
