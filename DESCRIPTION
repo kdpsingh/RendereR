@@ -1,11 +1,36 @@
 Package: RendereR
 Type: Package
-Title: Markdown Application for OpenCPU
-Version: 1.1
-Date: 2020-05-21
-Author: Jeroen Ooms
-Maintainer: Jeroen Ooms <jeroen@berkeley.edu>
-Description: OpenCPU App for markdown package
+Title: RendereR 
+Version: 2.0
+Date: 2021-06-27
+Author: Karandeep Singh
+Maintainer: Karandeep Singh <kdpsingh@umich.edu>
+Description: Tools for running R on iOS using OpenCPU
 License: Apache2
+Remotes: ML4LHS/runway
 Depends:
-    knitr
+    dplyr,
+    tidyr,
+    ggplot2,
+    magrittr,
+    data.table,
+    poorman,
+    rmarkdown,
+    h2o,
+    NHANES,
+    revealjs,
+    rayshader,
+    rayrender,
+    scholar,
+    leaflet,
+    xgboost,
+    ranger,
+    randomForestSRC,
+    parsnip,
+    yardstick,
+    rsample,
+    gt,
+    gtsummary,
+    magick,
+    runway,
+    textutils
