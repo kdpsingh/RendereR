@@ -18,7 +18,7 @@ $(function(){
   //This app requires OpenCPU 1.0.1 or higher!
   
   function domarkdown(e){
-    var req = ocpu.call("rmdtext", {
+    var req = ocpu.call("renderer", {
       text : editor.getSession().getValue()
     }, function(session){
       $("iframe").attr('src', session.getFileURL("output.html"));     
