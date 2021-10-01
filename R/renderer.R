@@ -2,7 +2,7 @@
 ##
 
 #' @export
-renderer <- function(text, ...) {
+renderer <- function(text, file = NULL, ...) {
   
   text = URLdecode(text)
   if (!grepl('```', text) & !grepl('^\\s*?---', text)) {
@@ -11,7 +11,11 @@ renderer <- function(text, ...) {
   
   # Convert &gt; into >
   text = textutils::HTMLdecode(text)
-    
+  
+  if (!is.null(file)) {
+    load(file)
+  }
+
   writeLines(text, con='output.Rmd')
   rmarkdown::render(input='output.Rmd', ...)
   invisible()
