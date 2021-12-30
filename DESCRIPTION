@@ -9,9 +9,9 @@ Description: Tools for running R on iOS using OpenCPU
 License: Apache2
 Remotes: ML4LHS/runway
 Depends:
+    tidyverse,
     knitr,
     rmarkdown,
-    tidyverse,
     tidymodels,
     data.table,
     poorman,
