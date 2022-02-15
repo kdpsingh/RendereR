@@ -44,9 +44,8 @@ my_pubs %>%
   mutate(author = str_replace(author,'K Singh','**K Singh**')) %>% 
   mutate(link = str_c('<a target="_blank" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=', google_scholar_id, '&citation_for_view=_0OsweUAAAAJ:', pubid, '">', author, '. ', title, '. <i>', journal, '</i>. ', number, ', ', year, '.</a>')) %>% 
   select(link) %>% 
-  filter(!is.na(link)) %>% 
-  rename(`Click to view more details.`=link) %>% 
-  knitr::kable()
+  filter(!is.na(link)) %>%  
+  knitr::kable(col.names = NULL)
 
 ```
 ~~~
