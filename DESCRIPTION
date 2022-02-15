@@ -23,6 +23,7 @@ Depends:
     xgboost,
     ranger,
     randomForestSRC,
+    grf,
     gtsummary,
     magick,
     runway,
