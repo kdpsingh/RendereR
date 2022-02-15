@@ -25,4 +25,5 @@ Depends:
     gt,
     gtsummary,
     magick,
-    runway
+    runway,
+    lobstr
