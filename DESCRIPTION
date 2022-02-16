@@ -27,4 +27,5 @@ Depends:
     gtsummary,
     magick,
     lobstr,
-    textutils
+    textutils,
+    psych
